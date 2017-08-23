@@ -2,17 +2,23 @@ __author__ = 'chrarvi'
 
 grid = []
 coords = [[" " for x in range(3)] for y in range(3)]
+n = 3
 
-def genGrid():
-    tempStr = ""
-    for i in range(8):
-        grid.append('#')
+def genGrid(gridCount):
+     grid = [[x in range(gridCount)] for y in range(gridCount)]
+     #TODO 
+  
+   
 
-    #[0|0|#]
-    #[-----]
-    #[0|0|0]
-    #[-----]
-    #[0|0|0]
+def draw(gridCount, moves):
+     if moves = (gridCount**2) - 1:
+     return True
+
+
+
+
+
+
 
 def init():
      grid = (coords[0][0],
